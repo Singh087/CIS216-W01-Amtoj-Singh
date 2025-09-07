@@ -17,3 +17,7 @@ I plan to use Python as my main language for developing applications and solving
 
 
 In Session 2, I learned how to use methods inside a class to organize my code in a cleaner way. I took my original BMI script and rebuilt it into a BMICalculator class that has methods for checking inputs, calculating BMI, and showing the category results. This made the program easier to understand, reuse, and even expand—like adding support for both metric and imperial units. Moving forward, I plan to keep using this approach of breaking code into clear methods so my programs are easier to read, maintain, and build on in both my coursework and future IT work.
+
+
+
+In Session 3, I focused on making my program stronger by checking that the data going in was valid, making sure numbers were in the right range, and handling errors so the app didn’t crash. I also used a nested `if` to handle the difference between US and non-US records, and kept good data separate from bad data so the program could keep running. Doing this helped me think more like a real developer planning for edge cases, giving clear error messages, and keeping everything stable.
