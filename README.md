@@ -20,4 +20,6 @@ In Session 2, I learned how to use methods inside a class to organize my code in
 
 
 
-In Session 3, I focused on making my program stronger by checking that the data going in was valid, making sure numbers were in the right range, and handling errors so the app didn’t crash. I also used a nested `if` to handle the difference between US and non-US records, and kept good data separate from bad data so the program could keep running. Doing this helped me think more like a real developer planning for edge cases, giving clear error messages, and keeping everything stable.
+Session 3 – Properties
+In this session I learned how to use properties to keep class data safe and organized. I added getters and setters with validation for things like name, email, age, GPA, and credits, plus some computed properties like full-time status, class standing, and BMI. This showed me how properties make code easier to manage and more reliable, which I can use in future projects and my career.
+
