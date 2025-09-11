@@ -23,3 +23,5 @@ In Session 2, I learned how to use methods inside a class to organize my code in
 Session 3 – Properties
 In this session I learned how to use properties to keep class data safe and organized. I added getters and setters with validation for things like name, email, age, GPA, and credits, plus some computed properties like full-time status, class standing, and BMI. This showed me how properties make code easier to manage and more reliable, which I can use in future projects and my career.
 
+
+Session 4 – Validation: I validated inputs (types, ranges, simple patterns, and cross-references) and used try/except so bad data didn’t crash the app. I also checked date consistency and kept good/bad records separate, which made the program feel more real and reliable.
