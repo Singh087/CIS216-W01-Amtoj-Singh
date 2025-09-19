@@ -25,3 +25,5 @@ In this session I learned how to use properties to keep class data safe and orga
 
 
 Session 4 – Validation: I validated inputs (types, ranges, simple patterns, and cross-references) and used try/except so bad data didn’t crash the app. I also checked date consistency and kept good/bad records separate, which made the program feel more real and reliable.
+
+Session 5 – Unit Testing, I split BMI logic into small functions and wrote unit tests using Python’s built in unittest. Tests cover normal cases, edge cases, and invalid inputs writing tests helped me design cleaner functions and catch mistakes early, which I’ll use in future projects and job tasks.
