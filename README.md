@@ -27,3 +27,43 @@ In this session I learned how to use properties to keep class data safe and orga
 Session 4 – Validation: I validated inputs (types, ranges, simple patterns, and cross-references) and used try/except so bad data didn’t crash the app. I also checked date consistency and kept good/bad records separate, which made the program feel more real and reliable.
 
 Session 5 – Unit Testing, I split BMI logic into small functions and wrote unit tests using Python’s built in unittest. Tests cover normal cases, edge cases, and invalid inputs writing tests helped me design cleaner functions and catch mistakes early, which I’ll use in future projects and job tasks.
+
+
+CIS 216 – Assignment 6 (Employees Inheritance) – ASCII UML
+Author: Amtoj Singh
+
++----------------------+
+|       Employee       |
++----------------------+
+| - _name: str         |
+| - _email: str        |
+| - _employee_id: int  |
++----------------------+
+| + name: str          |
+| + email: str         |
+| + employee_id: int   |
+| + contact_info():str |
+| + compute_pay():float*   (*abstract/overridden) 
+| + __str__(): str     |
++----------^-----------+
+           |
+   +-------+-------------------+--------------------+
+   |                           |                    |
++----------+             +-----------+        +-------------+
+|  Manager |             | SalesEmp  |        |  HourlyEmp  |
++----------+             +-----------+        +-------------+
+| - _annual_salary:float | - _base_pay:float  | - _hourly_rate:float
+| - _bonus_percent:float | - _commission:float|                     |
++------------------------+--------------------+---------------------+
+| + annual_salary:float  | + base_pay:float   | + hourly_rate:float |
+| + bonus_percent:float  | + commission_rate:float                  |
+| + give_raise(pct):void | + record_sales($):float                  |
+| + compute_pay(n):float | + compute_pay($):float | + compute_pay(h):float
+| + __str__():str        | + __str__():str    | + __str__():str     |
++------------------------+--------------------+---------------------+
+
+Notes:
+- All subclasses inherit name/email/employee_id, contact_info(), and __str__() from Employee.
+- Manager.compute_pay(n) uses annual_salary and bonus_percent, divided by periods (default biweekly 26).
+- SalesEmp.compute_pay(sales) = base_pay + sales * commission_rate.
+- HourlyEmp.compute_pay(hours) includes overtime ( >40 at 1.5x ).
