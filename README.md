@@ -67,3 +67,8 @@ Notes:
 - Manager.compute_pay(n) uses annual_salary and bonus_percent, divided by periods (default biweekly 26).
 - SalesEmp.compute_pay(sales) = base_pay + sales * commission_rate.
 - HourlyEmp.compute_pay(hours) includes overtime ( >40 at 1.5x ).
+
+Session 7 – Polymorphism: I built a Vehicle base class and derived Car, Truck, and Motorcycle, each overriding drive() with their own behavior. By looping over a mixed list of vehicles and calling the same drive() method, I saw how polymorphism lets me write flexible code that’s easy to extend with new types later.
+
+
+
