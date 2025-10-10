@@ -70,5 +70,9 @@ Notes:
 
 Session 7 – Polymorphism: I built a Vehicle base class and derived Car, Truck, and Motorcycle, each overriding drive() with their own behavior. By looping over a mixed list of vehicles and calling the same drive() method, I saw how polymorphism lets me write flexible code that’s easy to extend with new types later.
 
+Session 8 – GUI: I built two Tkinter apps: a small “Hello World” to practice widgets and events, and a simple text editor with vertical & horizontal scrollbars, menus, and a status bar. Working with layouts, events, and file dialogs helped me see how GUI apps structure user interactions, and I can reuse this pattern for future tools.
+
+
+
 
 
