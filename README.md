@@ -72,6 +72,9 @@ Session 7 – Polymorphism: I built a Vehicle base class and derived Car, Truck,
 
 Session 8 – GUI: I built two Tkinter apps: a small “Hello World” to practice widgets and events, and a simple text editor with vertical & horizontal scrollbars, menus, and a status bar. Working with layouts, events, and file dialogs helped me see how GUI apps structure user interactions, and I can reuse this pattern for future tools.
 
+Session 9 – Menus & Events: I extended my text editor by adding a File menu (New, Exit), an Edit menu (Cut/Copy/Paste), and a right-click context menu for the same edit actions. Hooking menu items and keyboard shortcuts into Text widget events made the UI feel more like real software and helped me understand how GUI callbacks and events fit together.
+
+
 
 
 
