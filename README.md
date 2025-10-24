@@ -74,6 +74,9 @@ Session 8 – GUI: I built two Tkinter apps: a small “Hello World” to practi
 
 Session 9 – Menus & Events: I extended my text editor by adding a File menu (New, Exit), an Edit menu (Cut/Copy/Paste), and a right-click context menu for the same edit actions. Hooking menu items and keyboard shortcuts into Text widget events made the UI feel more like real software and helped me understand how GUI callbacks and events fit together.
 
+Session 10 – Standard Dialog Boxes: I extended my editor with standard dialogs: file open/save/save-as, a color picker for text color, and a simple font size dialog. This helped me understand how to wire user actions to the right built-in dialogs and update widget state safely. I also kept the code readable and added a few small UX touches (status bar, keyboard shortcuts) that make the app feel more like real software.
+
+
 
 
 
