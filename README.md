@@ -76,6 +76,9 @@ Session 9 – Menus & Events: I extended my text editor by adding a File menu (N
 
 Session 10 – Standard Dialog Boxes: I extended my editor with standard dialogs: file open/save/save-as, a color picker for text color, and a simple font size dialog. This helped me understand how to wire user actions to the right built-in dialogs and update widget state safely. I also kept the code readable and added a few small UX touches (status bar, keyboard shortcuts) that make the app feel more like real software.
 
+Session 11 – Custom Dialog Boxes: I added two custom dialogs to my editor: a modal “About” window built from a Toplevel, and a “Font…” dialog that lists system font families with a size spinner and live preview. Wiring these up taught me how to control modality (transient, grab_set, wait_window), pass state back on OK vs. Cancel, and update a shared tkfont.Font so the editor changes immediately. This made dialogs feel less “magic” and more like normal GUI classes I can reuse.
+
+
 
 
 
