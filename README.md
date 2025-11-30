@@ -78,6 +78,11 @@ Session 10 – Standard Dialog Boxes: I extended my editor with standard dialogs
 
 Session 11 – Custom Dialog Boxes: I added two custom dialogs to my editor: a modal “About” window built from a Toplevel, and a “Font…” dialog that lists system font families with a size spinner and live preview. Wiring these up taught me how to control modality (transient, grab_set, wait_window), pass state back on OK vs. Cancel, and update a shared tkfont.Font so the editor changes immediately. This made dialogs feel less “magic” and more like normal GUI classes I can reuse.
 
+Session 13 - Inheritance lets you create a new class that reuses and extends an existing one instead of starting from scratch. For example, in my code an Inpatient is a specialized Patient that has extra fields like room number and length of stay, but it still uses all of the basic patient information from the parent class.
+
+The value of inheritance is that it reduces duplicate code and makes programs easier to maintain. If I improve something in the base class, all the child classes benefit automatically. It also lets me override methods in a controlled way, so the subclass can change how something works (like how it prints itself) without breaking other parts of the program. This makes the design more flexible and easier to extend as the system grows.
+
+
 
 
 
